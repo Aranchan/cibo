@@ -2,7 +2,7 @@
 /* Diario Alimentare – PWA senza dipendenze. Dati in localStorage ('dieta.v1'). */
 
 const KEY = 'dieta.v1';
-const VERSIONE = '1.0';
+const VERSIONE = '1.0.1';
 const PASTI = [
   { id: 'col', nome: 'Colazione', ico: '☕', h: 5 },
   { id: 'spu', nome: 'Spuntino', ico: '🍎', h: 10 },

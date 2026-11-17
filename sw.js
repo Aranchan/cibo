@@ -1,5 +1,5 @@
 /* Service worker: app disponibile offline. Le chiamate a Open Food Facts vanno sempre in rete. */
-const CACHE = 'dieta-v1.0';
+const CACHE = 'dieta-v1.0.1';
 const FILE = ['./', 'index.html', 'style.css', 'app.js', 'alimenti.js', 'manifest.webmanifest', 'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png'];
 
 self.addEventListener('install', e => {
