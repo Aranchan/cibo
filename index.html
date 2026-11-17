@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#1f8a5b">
+<meta name="description" content="Diario alimentare: calorie, pasti, ricette e obiettivo di peso">
+<title>Diario Alimentare</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><h1 id="titolo">Diario</h1></header>
+<main id="main"></main>
+<nav id="nav">
+  <button data-v="oggi" class="on"><span>📒</span>Diario</button>
+  <button data-v="alimenti"><span>🥫</span>Alimenti</button>
+  <button data-v="ricette"><span>🍲</span>Ricette</button>
+  <button data-v="progressi"><span>📈</span>Progressi</button>
+  <button data-v="altro"><span>⚙️</span>Altro</button>
+</nav>
+<div id="toast" role="status"></div>
+<script src="alimenti.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
